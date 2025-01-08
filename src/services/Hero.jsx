@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { statistics } from '../constants'
-import { div } from 'framer-motion/client'
+
 
 const Hero = () => {
   return (
