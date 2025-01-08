@@ -1,3 +1,5 @@
+import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
+
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
@@ -72,7 +74,7 @@ export const footerLinks=[
 ]
 
 export const socialMedia = [
-    // { src: facebook, alt: "facebook logo" },
-    // { src: twitter, alt: "twitter logo" },
-    // { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo" },
+    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
 ];
