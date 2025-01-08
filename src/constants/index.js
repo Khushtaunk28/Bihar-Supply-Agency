@@ -13,13 +13,13 @@ export const statistics = [
 
 export const products=[
     {
-        imgURL: shoe4,
+        // imgURL: shoe4,
         name: "Nike Air Jordan-01",
         price: "$200.20",
 
     },
     {
-        imgURL: shoe4,
+        // imgURL: shoe4,
         name: "Nike Air Jordan-01",
         price: "$200.20",
 
@@ -72,7 +72,7 @@ export const footerLinks=[
 ]
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    // { src: facebook, alt: "facebook logo" },
+    // { src: twitter, alt: "twitter logo" },
+    // { src: instagram, alt: "instagram logo" },
 ];
