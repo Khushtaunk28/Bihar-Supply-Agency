@@ -9,7 +9,8 @@
     "start": "serve -s dist",
     "lint": "eslint .",
     "serve": "^14.2.4",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "npm install serve && npm run build"
   },
   "dependencies": {
     "serve": "^14.2.4",
