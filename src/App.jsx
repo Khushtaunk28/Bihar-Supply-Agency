@@ -1,34 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Nav from  './services/Nav'
+import Hero from './services/Hero'
+import SpecializedProducts from './services/SpecializedProducts'
+import BestQuality from './services/BestQuality'
+import Services from './services/Services'
+import CustomerReviews from './services/CustomerReviews'
+import ContactUs from './services/ContactUs'
+import Footer from './services/Footer'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main className='relat<ive'>
+      <Nav/>
+
+      <section className='xl:padding-l wide:padding-r padding-b<'>
+        <Hero/>
+      </section>
+
+      <section className='padding'>
+       <SpecializedProducts/>
+      </section>
+
+      <section className='padding'>
+        <BestQuality/>
+      </section>
+
+      <section  className='padding'>
+        <Services/>
+      </section>
+
+      <section className='padding bg-pale-blue'>
+        <CustomerReviews/>
+      </section>
+
+      <section className='padding-x sm:py-32 py-16 w-full'>
+      <ContactUs/>
+      </section>
+
+      <section className='text-white bg-black padding-x padding-t pb-8'>
+        <Footer/>
+      </section>
+
+
+
+
+
+    </main>
   )
 }
 
