@@ -8,6 +8,7 @@
     "build": "vite build",
     "start": "serve -s dist",
     "lint": "eslint .",
+    "serve": "^14.2.4",
     "preview": "vite preview"
   },
   "dependencies": {
