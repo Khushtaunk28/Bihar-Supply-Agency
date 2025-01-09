@@ -1,8 +1,7 @@
-import React from 'react';
-import { navLinks } from '../constants';
+import React, { useState } from 'react';
+import { navLinks, products } from '../constants';
 import { boltnut } from '../assets/images';
 import { arrowRight, hamburger } from '../assets/icons';
-import { useState } from 'react';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,69 +16,45 @@ const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full flex-wrap">
       <nav className="flex justify-between items-center max-container">
-        <a href="/">
+        {/* Logo */}
+        <a href="/" className="flex items-center">
           <img src={boltnut} width={30} height={30} alt="bsaimg" />
-          <h1 className="text-red-500 font-bold font-montserrat">BSA</h1>
+          <h1 className="text-red-500 font-bold font-montserrat ml-2">BSA</h1>
         </a>
+
+        {/* Navigation Links */}
         <ul className="flex-1 flex justify-center gap-16 max-lg:hidden">
           {navLinks.map((links) => (
-            <li key={links.label}>
+            <li key={links.label} className="relative">
               {links.label === 'Products' ? (
                 <div
+                  className="relative"
                   onMouseEnter={() => setshowallproducts(true)}
                   onMouseLeave={() => setshowallproducts(false)}
-                  className="relative group"
                 >
-                  <div>
+                  {/* Larger Hover Area */}
+                  <div className="flex flex-col">
                     <a
                       className="text-slate-gray font-montserrat text-lg hover:text-coral-red"
                       href={links.href}
                     >
                       {links.label}
                     </a>
+
+                    {/* Dropdown Menu */}
                     {showallproducts && (
                       <div className="absolute bg-white border border-gray-200 shadow-lg mt-2 rounded-md w-48 z-10">
                         <ul>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
-                            >
-                              Bolt
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
-                            >
-                              Nut
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
-                            >
-                              Washer
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
-                            >
-                              BOLT-NUT-WASHER (Set)
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
-                            >
-                              Fastener
-                            </a>
-                          </li>
+                          {products.map((product) => (
+                            <li key={product.name}>
+                              <a
+                                href={product.href}
+                                className="block px-4 py-2 hover:bg-gray-100 text-gray-800"
+                              >
+                                {product.name}
+                              </a>
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     )}
@@ -97,12 +72,15 @@ const Nav = () => {
           ))}
         </ul>
 
+        {/* Hamburger Menu for Mobile */}
         <div className="hidden max-lg:block">
           <button onClick={toggleNav}>
             <img src={hamimage} alt="hamburger" width={25} height={25} />
           </button>
         </div>
       </nav>
+
+      {/* Mobile Menu */}
       {isOpen && (
         <div className="flex basis-full flex-col bg-transparent items-end gap-3 relative">
           {navLinks.map((links) => (
