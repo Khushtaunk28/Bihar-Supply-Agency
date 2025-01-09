@@ -8,8 +8,8 @@ export const navLinks = [
 ];
 
 export const statistics = [
-    { value: '100+', label: 'Sizes' },
     { value: '80+', label: 'Years of Excellence' },
+    { value: '100+', label: 'Sizes' },
     { value: '1Cr+', label: 'Customers' },
 ];
 
@@ -57,12 +57,12 @@ export const footerLinks=[
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Nut", link: "/" },
+            { name: "Bolt", link: "/" },
+            { name: "Washers", link: "/" },
+            { name: "Fasteners", link: "/" },
+            { name: "Machine Screws", link: "/" },
+            { name: "Gas Jali", link: "/" },
         ],
     },
     {
@@ -71,7 +71,6 @@ export const footerLinks=[
         links: [
             { name: "About us", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
             { name: "Privacy policy", link: "/" },
             { name: "Payment policy", link: "/" },
         ],
@@ -79,10 +78,25 @@ export const footerLinks=[
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "ordernow@bsa.com", link: "mailto:customer@nike.com" },
+            { name: "+91 9431075595", link: "tel:+91 9431075598" },
         ],
     },
+    {
+        title: "Address",
+        links: [
+            { name: "Bihar Supply Agency,Exhibition Road", link: "/" },
+            { name: " Patna ,Bihar, India", link: "/" },
+            { name: "800001", link: "/" },
+        ]
+    },
+    {
+        title: "When Are We Open",
+        links: [
+            { name: "Mon - Sat: 9am - 7pm", link: "/" },
+            { name: "Sun: Closed", link: "/" },
+        ]
+    }
 ]
 
 export const socialMedia = [

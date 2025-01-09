@@ -1,6 +1,7 @@
 import React from 'react'
 import { boltnut } from '../assets/images'
 import { copyrightSign } from '../assets/icons'
+import { footerLinks } from '../constants'
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
         </div> */}
       </div>
 
-      {/* <div className='flex flex-1 justify-between
+      <div className='flex flex-1 justify-between
       lg-gap-10 gap-20 flex-wrap'>
         {footerLinks.map((section) => (
           <div key={section}
@@ -39,7 +40,7 @@ const Footer = () => {
           </ul>
           </div>  
         ))}
-      </div> */}
+      </div>
     </div>
 
     <div className='flex justify-between text-white-400 mt-24 max-sm:flex-col
