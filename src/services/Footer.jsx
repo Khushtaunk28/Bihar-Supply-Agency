@@ -14,9 +14,6 @@ const Footer = () => {
           <img src={boltnut} alt="footerlogo"
           width={150} height={46} />
         </a>
-
-        <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>Find top-quality nuts, bolts, washers, and fasteners at Bihar Supply Agency, Patna! Perfect fit and unbeatable durability for every project!</p>
-
         {/* <div className='flex items-center gap-5 mt-8'>
           {socialMedia.map((icon) => (
             <div className='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
