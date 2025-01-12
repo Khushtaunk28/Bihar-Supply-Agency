@@ -14,7 +14,17 @@ const Nav = () => {
   };
 
   return (
+    <>
+    <nav className='bg-red-500 text-white font-palanquin'>
+        
+
+      </nav>
     <header className="padding-x py-8 absolute z-10 w-full flex-wrap">
+
+
+
+
+
       <nav className="flex justify-between items-center max-container">
         {/* Logo */}
         <a href="/" className="flex items-center">
@@ -95,6 +105,7 @@ const Nav = () => {
         </div>
       )}
     </header>
+    </>
   );
 };
 
