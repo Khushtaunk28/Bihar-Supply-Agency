@@ -7,7 +7,7 @@ import Services from './services/Services'
 import CustomerReviews from './services/CustomerReviews'
 import ContactUs from './services/ContactUs'
 import Footer from './services/Footer'
-
+import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   return (
