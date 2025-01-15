@@ -5,7 +5,7 @@ import SpecializedProducts from './sections/SpecializedProducts'
 import BestQuality from './sections/BestQuality'
 import Services from './sections/Services'
 import CustomerReviews from './sections/CustomerReviews'
-// import ContactUs from './sections/ContactUs'
+import ContactUs from './sections/ContactUs'
 import Footer from './sections/Footer'
 import { ToastContainer } from 'react-toastify'
 
@@ -34,9 +34,9 @@ const App = () => {
         <CustomerReviews/>
       </section>
 
-      {/* <section className='padding-x sm:py-32 py-16 w-full'>
+      <section className='padding-x sm:py-32 py-16 w-full'>
       <ContactUs/>
-      </section> */}
+      </section>
 
       <section className='text-white bg-black padding-x padding-t pb-8'>
         <Footer/>
