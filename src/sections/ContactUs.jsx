@@ -22,7 +22,7 @@ const ContactUs = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
     try{
-      const response=await axios.post('http://localhost:8080/public/contact-us',formData,{
+      const response=await axios.post('https://biharsupplybackend-b0d3a28156a5.herokuapp.com/public/contact-us',formData,{
         headers: {
           'Content-Type': 'application/json'
         }
