@@ -38,6 +38,18 @@ export const products=[
         name: "Washer",
         href: "#",
 
+    },
+    {
+        // imgURL: shoe4,
+        name: "Self Drilling Screws/Machine Screws",
+        href: "#",
+
+    },
+     {
+        // imgURL: shoe4,
+        name: "Threaded Rod",
+        href: "#",
+
     }
     //add more products here with imgUrls
 ]
@@ -63,6 +75,8 @@ export const footerLinks=[
             { name: "Washers", link: "/" },
             { name: "Fasteners", link: "/" },
             { name: "Machine Screws", link: "/" },
+            { name: "Self Drilling Screws", link: "/" },
+            { name: "Threaded Rod", link: "/" },
             { name: "Gas Jali", link: "/" },
         ],
     },
