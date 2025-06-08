@@ -21,7 +21,7 @@ const CustomerReviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch('http://localhost:8080/api/reviews');
+        const response = await fetch('https://biharsupplybackend-b0d3a28156a5.herokuapp.com/api/reviews');
         const data = await response.json();
         console.log('Fetched reviews:', data);
         setReviews(data.result?.reviews || []);
