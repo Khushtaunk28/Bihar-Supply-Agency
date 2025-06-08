@@ -17,6 +17,9 @@ const App = () => {
       <section className='xl:padding-l wide:padding-r padding-b<'>
         <Hero/>
       </section>
+       <section  className='padding'>
+        <Services/>
+      </section>
 
       <section className='padding'>
        <SpecializedProducts/>
@@ -26,9 +29,6 @@ const App = () => {
         <BestQuality/>
       </section>
 
-      <section  className='padding'>
-        <Services/>
-      </section>
 
       <section className='padding bg-pale-blue'>
         <CustomerReviews/>

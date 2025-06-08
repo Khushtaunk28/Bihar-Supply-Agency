@@ -20,6 +20,7 @@ const Hero = () => {
           <span className='text-coral-red'> Best Quality </span> Products
         </h1>
 
+
         <p className='font-montserrat text-slate-gray mt-6 text-lg leading-8 mb-14 sm:max-w-sm'>
           Premium nuts, bolts, and washers for all your hardware needs
         </p>

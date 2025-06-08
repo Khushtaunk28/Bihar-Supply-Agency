@@ -1,5 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 
+
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
@@ -59,6 +60,70 @@ export const services=[
         //write services and procuts here
     }
 ]
+
+export const productCards=[
+  {
+    name: "All Hardware Products",
+    imgURL: "src/BsaPics/allhardwareproducts.jpg",
+  },
+  {
+    name: "All Type Fasteners",
+    imgURL: "src/BsaPics/alltypefasteners.jpg",
+  },
+  {
+    name: "All Variety Bolts",
+    imgURL: "src/BsaPics/allvarietybolts.jpg",
+  },
+  {
+    name: "All Variety Nuts",
+    imgURL: "src/BsaPics/allvarietynuts.jpg",
+  },
+  {
+    name: "Brass Bolt",
+    imgURL: "src/BsaPics/brassbolt.jpg",
+  },
+  {
+    name: "C-Channel",
+    imgURL: "src/BsaPics/C-channel.jpg",
+  },
+  {
+    name: "Clamp",
+    imgURL: "src/BsaPics/clamp.jpg",
+  },
+  {
+    name: "Gi Bolt",
+    imgURL: "src/BsaPics/Gi Bolt.jpg",
+  },
+  {
+    name: "Gi Nut",
+    imgURL: "src/BsaPics/Gi-nut.jpg",
+  },
+  {
+    name: "HP Self Drilling Screws",
+    imgURL: "src/BsaPics/HpSelfDrillingScrews.jpg",
+  },
+  {
+    name: "Multiple Fasteners",
+    imgURL: "src/BsaPics/multiplefasteners.jpg",
+  },
+  {
+    name: "Punjab Nut",
+    imgURL: "src/BsaPics/PunjabNut.jpg",
+  },
+  {
+    name: "Spring Washer",
+    imgURL: "src/BsaPics/springwasher.jpg",
+  },
+  {
+    name: "Washer",
+    imgURL: "src/BsaPics/Washer.jpg",
+  },
+  {
+    name: "Wedge Fastener",
+    imgURL: "src/BsaPics/wedgefastener.jpg",
+  }
+];
+
 
 export const reviews=[
     {
