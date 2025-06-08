@@ -42,7 +42,7 @@ const Services = () => {
     ],
   };
 
-  const priority = ['Bolt', 'Nut', 'Washer'];
+  const priority = ['Bolts', 'Nuts', 'Washer'];
   const prioritizedProducts = [
     ...productCards.filter(p => priority.some(keyword => p.name.toLowerCase().includes(keyword.toLowerCase()))),
     ...productCards.filter(p => !priority.some(keyword => p.name.toLowerCase().includes(keyword.toLowerCase())))

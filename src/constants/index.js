@@ -71,11 +71,11 @@ export const productCards=[
     imgURL: "src/BsaPics/alltypefasteners.jpg",
   },
   {
-    name: "All Variety Bolts",
-    imgURL: "src/BsaPics/allvarietybolts.jpg",
+    name: "Bolts",
+    imgURL: "./src/BsaPics/allvarietybolts.jpg",
   },
   {
-    name: "All Variety Nuts",
+    name: "Nuts",
     imgURL: "src/BsaPics/allvarietynuts.jpg",
   },
   {
