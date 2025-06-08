@@ -22,9 +22,9 @@ const Nav = () => {
       <a href="tel:+919431075595" className="hover:underline">📞 +91-9431075595</a>
       <a href="tel:+919631014904" className="hover:underline">📞 +91-9631014904</a>
     </div>
-   <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-right">
-      <span>📍 Umag Palace, G-1, Exhibition Rd, Patna-800001</span>
-      <span>🕒 Mon - Sat: 9:00 AM – 6:00 PM</span>
+     <div>📍 Umag Palace, G-1, Exhibition Rd, Patna-800001</div>
+    <div>
+      🕒 Mon - Sat: 9:00 AM – 7:00 PM
     </div>
   </div>
 </nav>
