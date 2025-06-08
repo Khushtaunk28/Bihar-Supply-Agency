@@ -1,5 +1,6 @@
 {
-    "root": "dist/",
-    "clean_urls": true
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
   }
-  
+}
