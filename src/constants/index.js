@@ -8,10 +8,11 @@ export const navLinks = [
 ];
 
 export const statistics = [
-    { value: '80+', label: 'Years of Excellence' },
-    { value: '100+', label: 'Sizes' },
-    { value: '1Cr+', label: 'Customers' },
+  { number: 80, label: 'Years of Excellence' },
+  { number: 100, label: 'Sizes' },
+  { number: 10000000, label: 'Customers' }, // 1Cr+
 ];
+
 
 export const products=[
     {
