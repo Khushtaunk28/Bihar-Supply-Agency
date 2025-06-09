@@ -76,7 +76,7 @@ export const productCards=[
   },
   {
     name: "Nuts",
-    imgURL: "BsaPics/allvarietynuts.jpg",
+    imgURL: "BsaPics/Allvarietynuts.jpg",
   },
   {
     name: "Brass Bolt",
