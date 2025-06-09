@@ -64,63 +64,63 @@ export const services=[
 export const productCards=[
   {
     name: "All Hardware Products",
-    imgURL: "src/BsaPics/allhardwareproducts.jpg",
+    imgURL: "BsaPics/allhardwareproducts.jpg",
   },
   {
     name: "All Type Fasteners",
-    imgURL: "src/BsaPics/alltypefasteners.jpg",
+    imgURL: "BsaPics/alltypefasteners.jpg",
   },
   {
     name: "Bolts",
-    imgURL: "./src/BsaPics/allvarietybolts.jpg",
+    imgURL: "BsaPics/allvarietybolts.jpg",
   },
   {
     name: "Nuts",
-    imgURL: "src/BsaPics/allvarietynuts.jpg",
+    imgURL: "BsaPics/allvarietynuts.jpg",
   },
   {
     name: "Brass Bolt",
-    imgURL: "src/BsaPics/brassbolt.jpg",
+    imgURL: "BsaPics/brassbolt.jpg",
   },
   {
     name: "C-Channel",
-    imgURL: "src/BsaPics/C-channel.jpg",
+    imgURL: "BsaPics/C-channel.jpg",
   },
   {
     name: "Clamp",
-    imgURL: "src/BsaPics/clamp.jpg",
+    imgURL: "BsaPics/clamp.jpg",
   },
   {
     name: "Gi Bolt",
-    imgURL: "src/BsaPics/Gi Bolt.jpg",
+    imgURL: "BsaPics/Gi Bolt.jpg",
   },
   {
     name: "Gi Nut",
-    imgURL: "src/BsaPics/Gi-nut.jpg",
+    imgURL: "BsaPics/Gi-nut.jpg",
   },
   {
     name: "HP Self Drilling Screws",
-    imgURL: "src/BsaPics/HpSelfDrillingScrews.jpg",
+    imgURL: "BsaPics/HpSelfDrillingScrews.jpg",
   },
   {
     name: "Multiple Fasteners",
-    imgURL: "src/BsaPics/multiplefasteners.jpg",
+    imgURL: "BsaPics/multiplefasteners.jpg",
   },
   {
     name: "Punjab Nut",
-    imgURL: "src/BsaPics/PunjabNut.jpg",
+    imgURL: "BsaPics/PunjabNut.jpg",
   },
   {
     name: "Spring Washer",
-    imgURL: "src/BsaPics/springwasher.jpg",
+    imgURL: "BsaPics/springwasher.jpg",
   },
   {
     name: "Washer",
-    imgURL: "src/BsaPics/Washer.jpg",
+    imgURL: "BsaPics/Washer.jpg",
   },
   {
     name: "Wedge Fastener",
-    imgURL: "src/BsaPics/wedgefastener.jpg",
+    imgURL: "BsaPics/wedgefastener.jpg",
   }
 ];
 
