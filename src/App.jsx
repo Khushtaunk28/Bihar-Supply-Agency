@@ -7,6 +7,7 @@ import Services from './sections/Services'
 import CustomerReviews from './sections/CustomerReviews'
 import ContactUs from './sections/ContactUs'
 import Footer from './sections/Footer'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 
 const App = () => {
@@ -42,11 +43,13 @@ const App = () => {
         <Footer/>
       </section>
 
-
-
-
-
-    </main>
+     {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/services" element={<Services/>} />
+      </Routes>
+    </BrowserRouter> */}
+     </main>
   )
 }
 

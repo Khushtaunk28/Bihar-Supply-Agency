@@ -2,49 +2,49 @@ import React from 'react';
 import Button from '../components/Button';
 import { arrowRight } from '../assets/icons';
 import { statistics } from '../constants';
-import Counter from '../components/Counter'; // <-- Create this file from earlier step
-// import heroImage from '../assets/images/hero-product.png'; // <-- Replace with your image path
+import { Link } from 'react-router-dom';
+import Counter from '../components/Counter';
 
 const Hero = () => {
   return (
-    <section
-      id='home'
-      className='w-full flex flex-col justify-center min-h-screen gap-10 max-container'
-    >
-      {/* Text + CTA Section */}
-      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
-        <p className='text-xl font-montserrat text-red-500'>Our Expertise</p>
+    <section id="home" className="w-full flex flex-col xl:flex-row pt-28 xl:pt-32">
+      {/* LEFT: Text Content */}
+      <div className="xl:w-1/2 w-full flex flex-col justify-center px-6 xl:px-24 pb-10">
+        <p className="text-xl font-montserrat text-red-500">Our Expertise</p>
 
-        <h1 className='mt-10 text-8xl font-palanquin font-bold max-sm:text-[72px] max-sm:leading-[82px]'>
+        <h1 className="mt-10 text-4xl xl:text-5xl font-bold font-palanquin leading-tight">
           The Industry Standard
-          <span className='text-coral-red'> Best Quality </span> Products
+          <span className="text-coral-red"> Best Quality </span> Products
         </h1>
 
-
-        <p className='font-montserrat text-slate-gray mt-6 text-lg leading-8 mb-14 sm:max-w-sm'>
+        <p className="font-montserrat text-slate-gray mt-6 text-lg leading-8 mb-10 max-w-md">
           Premium nuts, bolts, and washers for all your hardware needs
         </p>
 
-        <Button label='Explore Now' iconURL={arrowRight} />
+        
+    <Button label="Explore Now" iconURL={arrowRight} />
+  
       </div>
 
-      {/* Animated Statistics Section */}
-      <div className='flex justify-start items-start flex-wrap padding w-full mt-20 gap-16'>
-        {statistics.map((stat, index) => (
-          <div key={index} className='text-center'>
-            <Counter end={stat.number} label={stat.label} />
-          </div>
-        ))}
-      </div>
+      {/* RIGHT: Image and Counter */}
+      <div className="xl:w-1/2 w-full flex flex-col items-center">
+        {/* IMAGE */}
+        <div className="w-full h-[70vh] xl:h-[85vh] px-6 overflow-hidden">
+          <img
+            src="/BsaPics/FrontBigPic.jpg"
+            alt="Featured Product"
+            className="w-full h-full object-cover rounded-none xl:rounded-l-3xl shadow-lg"
+          />
+        </div>
 
-      {/* Big Product Image */}
-      <div className='w-full flex justify-center mt-12'>
-        {/* <img
-          src={heroImage}
-          alt='Featured Product'
-          className='max-w-4xl w-full object-contain rounded-3xl shadow-lg'
-        /> */}
-        <p>big image</p>
+        {/* COUNTER BELOW IMAGE */}
+        <div className="flex flex-wrap justify-center items-start gap-10 px-6 py-8 bg-white w-full">
+          {statistics.map((stat, index) => (
+            <div key={index} className="text-center">
+              <Counter end={stat.number} label={stat.label} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
