@@ -5,7 +5,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const ProductCard = ({ name, imgURL }) => (
-  <div className="bg-white rounded-2xl shadow-xl p-4 w-72 mx-auto transition-transform hover:scale-105 duration-300">
+  <section id="products" className="max-container">
+  <div  className="bg-white rounded-2xl shadow-xl p-4 w-72 mx-auto transition-transform hover:scale-105 duration-300">
     <div className="h-52 w-full overflow-hidden rounded-lg mb-4">
       <img
         src={imgURL}
@@ -15,6 +16,7 @@ const ProductCard = ({ name, imgURL }) => (
     </div>
     <h4 className="font-bold text-xl text-center text-gray-800">{name}</h4>
   </div>
+  </section>
 );
 
 const Services = () => {

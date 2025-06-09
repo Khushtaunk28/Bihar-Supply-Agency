@@ -149,7 +149,7 @@ export const footerLinks=[
         
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
+            { name: "About us", link: "/#about-us" },
             { name: "FAQs", link: "/" },
             { name: "Privacy policy", link: "/" },
             { name: "Payment policy", link: "/" },
@@ -158,14 +158,15 @@ export const footerLinks=[
     {
         title: "Get in touch",
         links: [
-            { name: "ordernow@bsa.com", link: "mailto:customer@nike.com" },
-            { name: "+91 9431075595", link: "tel:+91 9431075598" },
+            { name: "tipesh.taunk@.com", link: "tipesh.taunk@gmail.com" },
+            { name: "+91 9431075595", link: "tel:+91 9431075595" },
+             { name: "+91 9631014904", link: "tel:+91 9631014904" },
         ],
     },
     {
         title: "Address",
         links: [
-            { name: "Bihar Supply Agency,Exhibition Road", link: "/" },
+            { name: ": Umag Palace, G-1, Exhibition Rd, Fraser Road Area", link: "/" },
             { name: " Patna ,Bihar, India", link: "/" },
             { name: "800001", link: "/" },
         ]

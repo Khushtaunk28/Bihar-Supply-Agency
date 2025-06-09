@@ -22,9 +22,9 @@ const App = () => {
         <Services/>
       </section>
 
-      <section className='padding'>
+      {/* <section className='padding'>
        <SpecializedProducts/>
-      </section>
+      </section> */}
 
       <section className='padding'>
         <BestQuality/>

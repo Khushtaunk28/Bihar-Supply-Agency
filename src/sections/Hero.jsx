@@ -21,9 +21,13 @@ const Hero = () => {
           Premium nuts, bolts, and washers for all your hardware needs
         </p>
 
-        
-    <Button label="Explore Now" iconURL={arrowRight} />
-  
+
+   <a href="#products">
+  <Button label="Explore Now" iconURL={arrowRight} />
+</a>
+
+
+
       </div>
 
       {/* RIGHT: Image and Counter */}
