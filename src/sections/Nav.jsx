@@ -16,28 +16,37 @@ const Nav = () => {
   return (
     <>
       {/* Top Contact Header */}
-   <nav className='bg-red-600 text-white text-sm px-4 py-2 font-montserrat w-full'>
-  <div className='max-container flex flex-wrap justify-between items-center gap-2 text-xs sm:text-sm'>
-    <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
-      <a href="tel:+919431075595" className="hover:underline">📞 +91-9431075595</a>
-      <a href="tel:+919631014904" className="hover:underline">📞 +91-9631014904</a>
-    </div>
-     <div>📍 Umag Palace, G-1, Exhibition Rd, Patna-800001</div>
-    <div>
-      🕒 Mon - Sat: 9:00 AM – 7:00 PM
-    </div>
-  </div>
-</nav>
+      <nav className='bg-red-600 text-white text-sm px-4 py-2 font-montserrat w-full'>
+        <div className='max-container flex flex-wrap justify-between items-center gap-2 text-xs sm:text-sm'>
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
+            <a href="tel:+919431075595" className="hover:underline">📞 +91-9431075595</a>
+            <a href="tel:+919631014904" className="hover:underline">📞 +91-9631014904</a>
+          </div>
+          <div>📍 Umag Palace, G-1, Exhibition Rd, Patna-800001</div>
+          <div>🕒 Mon - Sat: 9:00 AM – 7:00 PM</div>
+        </div>
+      </nav>
 
       {/* Main Navigation Header */}
       <header className="padding-x py-8 absolute z-10 w-full flex-wrap">
-
         <nav className="flex justify-between items-center max-container">
-          {/* Logo */}
-          <a href="/" className="flex items-center">
-            <img src={boltnut} width={30} height={30} alt="bsaimg" />
-            <h1 className="text-red-500 font-bold font-montserrat ml-2">BSA</h1>
-          </a>
+          
+          {/* BSA Logo + MSME Logo */}
+          <div className="flex items-center gap-4">
+            {/* BSA Logo and Name */}
+            <a href="/" className="flex items-center">
+              <img src={boltnut} width={30} height={30} alt="bsaimg" />
+              <h1 className="text-red-500 font-bold font-montserrat ml-2">BSA</h1>
+            </a>
+
+            {/* MSME Logo */}
+            <img
+              src="/BsaPics/msme.jpg"
+              alt="MSME Certified"
+              title="Certified by Ministry of MSME, Govt. of India"
+              className="h-8 w-auto object-contain"
+            />
+          </div>
 
           {/* Navigation Links */}
           <ul className="flex-1 flex justify-center gap-16 max-lg:hidden">
