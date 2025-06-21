@@ -10,8 +10,8 @@ export const navLinks = [
 
 export const statistics = [
   { number: 60, label: 'Years of Excellence' },
-  { number: 100, label: 'Sizes' },
-  { number: 10000000, label: 'Customers' }, // 1Cr+
+  { number: 100, label: 'SKUs' },
+  { number: 10000000, label: 'Customers Served' }, // 1Cr+
 ];
 
 
@@ -158,7 +158,7 @@ export const footerLinks=[
     {
         title: "Get in touch",
         links: [
-            { name: "tipesh.taunk@.com", link: "tipesh.taunk@gmail.com" },
+            { name: "tipesh.taunk@gmail.com", link: "tipesh.taunk@gmail.com" },
             { name: "+91 9431075595", link: "tel:+91 9431075595" },
              { name: "+91 9631014904", link: "tel:+91 9631014904" },
         ],

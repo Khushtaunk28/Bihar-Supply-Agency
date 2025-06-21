@@ -17,17 +17,19 @@ const Hero = () => {
           <span className="text-coral-red"> Best Quality </span> Products
         </h1>
 
-        <p className="font-montserrat text-slate-gray mt-6 text-lg leading-8 mb-10 max-w-md">
+        <p className="font-montserrat text-slate-gray mt-6 text-lg leading-8">
           Premium nuts, bolts, and washers for all your hardware needs
         </p>
 
+        {/* ✅ NEW: Business Description */}
+        <p className="font-montserrat text-gray-700 mt-4 text-base xl:text-lg leading-7 max-w-md">
+          Trusted by professionals for over 60 years, <span className="text-coral-red font-semibold">Bihar Supply Agency</span> is your one-stop shop for industrial-grade hardware. We combine legacy, quality, and reliability to power infrastructure across Bihar and beyond.
+        </p>
 
-   <a href="#products">
-  <Button label="Explore Now" iconURL={arrowRight} />
-</a>
-
-
-
+        {/* CTA Button */}
+        <a href="#products" className="mt-10">
+          <Button label="Explore Now" iconURL={arrowRight} />
+        </a>
       </div>
 
       {/* RIGHT: Image and Counter */}
