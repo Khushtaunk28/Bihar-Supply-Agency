@@ -24,7 +24,7 @@ const ContactUs = () => {
 
     try {
       const response = await axios.post(
-        'https://biharsupplybackend-b0d3a28156a5.herokuapp.com/public/contact-us',
+        'https://www.biharsupplyagency.shop/api/public/contact-us',
         formData,
         {
           headers: {
